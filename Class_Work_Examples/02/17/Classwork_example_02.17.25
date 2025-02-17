@@ -1,0 +1,7 @@
+#In class practive module - format inputting
+
+#Get and amount of money from the user
+
+money=float(input("Enter an amount of money with change: "))
+
+print("The amount entered: $" + str(money))
