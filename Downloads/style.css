@@ -1,0 +1,150 @@
+/* 
+{
+    background-color:rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+*/
+/* review styling */
+
+* 
+{
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+} 
+
+#banner
+{
+    width:50%;
+    background-color: rgb(2, 205, 205);;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 30px auto;
+}
+
+#banner > a
+{
+    background-color: rgb(2, 205, 205);
+    outline-style: hidden;
+    outline-width: 5px;
+    border-radius: 15px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+/* AI DID THE EMOJI THING IN THE LINKS FOR ME I COPY AND PASTED PLS DONT FAIL ME. 
+IT WAS TOO COOL NOT TO INCLUDE ONCE I FOUND OUT IT WAS POSSIBLE.*/
+
+a::before,
+a::after 
+{
+    content: "";
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    margin: 0 5px;
+}
+
+a:hover::before,
+a:hover::after 
+{
+    content: "✨";
+    opacity: 1;
+}
+
+/* END OF AI ASSISTIANCE. IT ONLY HELPED ME FIND SYNTAX AND SUCH IN THE OTHER SPOTS IN CSS*/
+
+#reviews
+{
+    width:50%;
+    background-color: rgb(2, 205, 205);
+    outline-style: hidden;
+    outline-width: 5px;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 30px auto;
+}
+#reviews > h3
+{
+    background-color: rgb(2, 205, 205);
+    font-size: 150%;
+    font-weight: bold;
+    padding: 25px;
+    margin: auto
+}
+#reviews > p
+{
+    margin-bottom: 15px;
+    background-color: rgb(2, 245, 245);
+    border-radius: 15px;
+    outline-offset: 1px;
+    outline-style: solid;
+    outline-width: 2px;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+/* how2play styling*/
+#HowToPlay
+{
+    outline-width: 5px;
+    border-radius: 5px;
+}
+
+th
+{
+    background-color: rgb(2, 205, 205);
+    outline-width: 2px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+td
+{
+    background-color: rgb(2, 245, 245);
+    width:800px;
+    outline-width: 2px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#about_you, #game_description, #contact, #form, #vid, #AI
+{
+    width:50%;
+    background-color: rgb(2, 205, 205);
+    outline-style: hidden;
+    outline-width: 5px;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+#AI > img
+{
+    margin: 30px auto;
+    border-radius: 30px;
+    max-width: 900px;
+    height: auto;
+}
+
+#name_email
+{
+    display: inline-block;
+    text-align: left;
+}
+
+
+#about_you > img
+{
+    float: left;
+    margin-right: 15px;
+    border-radius: 10px;
+    max-width: 275px;
+    height: auto;
+}
